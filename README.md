@@ -1,0 +1,5 @@
+# sourcify.js
+
+Sourcify is a code generator that cleans up and applies a consistent formatting style to JavaScript source code. In addition to pretty-printing, Sourcify can be used as the code generator component of a compiler/transpiler, though source map support is still under development. You can pass Sourcify any ES5 [ESTree](https://github.com/estree/estree/)-compliant syntax tree, such as a tree created by [Esprima](https://github.com/jquery/esprima), [Acorn](https://github.com/ternjs/acorn), or [Espree](https://github.com/eslint/espree). You can also pass Sourcify a string, in which case it will parse the string with [Esprima](https://github.com/jquery/esprima) and pass that tree to its code generation process. Sourcify takes 38 [JSCS](https://github.com/jscs-dev/node-jscs)-inspired options to give you precise control over semicolons, spacing, linebreaks, indentation, and more. Try out the demos. Experiment with the checkboxes below to sample Sourcify's formatting flexibility. Edit the code snippet to see Sourcify transform it live.
+
+For more on Sourcify, including a detail documentation of its API, visit http://zjmiller.github.io/sourcify/.
